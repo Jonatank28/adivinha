@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #C0DCF9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+input,button{
+    border: none;
+    background-color: #FFFFFF;
+}
+.container{
+    background-color: #FFFFFF;
+    padding: 40px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    border-radius: 6px;
+}
+form{
+    margin: 20px 0 10px;
+    display: flex;
+}
+form button{
+    background-color: blue;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+}
+form input{
+    background-color: #dacfcf;
+    padding-left: 20px;
+    width: 50px;
+    border-radius: 6px 0 0 6px;
+}
+
+.hidden{
+    display: none;
+}
+
+.t2 form button{
+    border-radius: 6px;
+    width: 150px;
+}
+.t1 p:last-child{
+}
